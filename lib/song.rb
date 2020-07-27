@@ -1,7 +1,7 @@
 class Song 
   attr_accessor :artist, :title
   
-  @@songs = []
+  @@all = []
   
   def initialize(title)
     @@songs << self 
@@ -9,7 +9,7 @@ class Song
   end 
   
   def all 
-    @@songs 
+    @@all 
   end 
   
 end 
