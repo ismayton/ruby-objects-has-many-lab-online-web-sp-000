@@ -7,5 +7,8 @@ class Song
     @title = title 
   end 
   
+  def all 
+    @@songs 
+  end 
   
 end 
