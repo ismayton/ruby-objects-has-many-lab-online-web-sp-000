@@ -18,9 +18,9 @@ class Song
   
   def artist_name 
     if self.artist.name.present?
-      nil 
+      self.artist.name
     else
-      self.artist.name 
+      nil 
     end
   end 
   
