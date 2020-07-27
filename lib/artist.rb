@@ -5,5 +5,6 @@ class Artist
     @name = name 
   end 
   
-  
+  def songs 
+    Song.all.select {|artist| 
 end
