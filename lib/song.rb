@@ -17,10 +17,10 @@ class Song
   end 
   
   def artist_name 
-    if self.artist.name.present?
-      self.artist.name
+    if self.artist.name.empty?
+      nil
     else
-      nil 
+     self.artist.name 
     end
   end 
   
